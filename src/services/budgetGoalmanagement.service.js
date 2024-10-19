@@ -2,13 +2,12 @@ const BudgetModel = require('../models/budget.model');
 const TransactionModel = require('../models/transaction.model');
 const GoalModel = require('../models/goals.model');
 const logger = require('../utils/logger');
+
 // only one budget should be created for the perticular category for the time being
 const Management = {
     CalculateBudget : async(username , BudgetId ) => {
         try{
-            console.log("Username:", username);
-            console.log("BudgetId:", BudgetId);    
-            const budget = await BudgetModel.findOne({_id: BudgetId, username});
+            const budget = await BudgetModel.findOne({ _id: BudgetId, username });
             if(!budget){
                 throw new Error("no budget found");
             }

@@ -24,3 +24,20 @@
 2024-10-04T08:14:06.256Z info: Received a POST request for /auth/register
 2024-10-04T08:14:25.622Z info: Received a POST request for /auth/login
 2024-10-04T08:24:54.875Z info: Received a POST request for /auth/login
+2024-10-19T14:38:19.458Z info: app listening on port 8000
+2024-10-19T14:39:35.242Z info: Received a POST request for /auth/login
+2024-10-19T14:39:35.263Z error: username or password is wrong
+2024-10-19T14:40:50.626Z info: Received a POST request for /auth/register
+2024-10-19T14:41:00.651Z info: Received a POST request for /auth/register
+2024-10-19T14:41:00.661Z error: User already exists
+2024-10-19T14:41:24.991Z info: Received a POST request for /auth/login
+2024-10-19T14:43:34.490Z info: Received a GET request for /manage/budget/6710e069329a6c85fb303174
+2024-10-19T14:43:34.497Z info: Received a request for /budget/6710e069329a6c85fb303174 from janjaal
+2024-10-19T14:45:23.447Z info: Received a GET request for /manage/budget?BudgetId=6710e069329a6c85fb303174%20=%20janjaal
+2024-10-19T14:45:23.452Z info: Received a request for /budget?BudgetId=6710e069329a6c85fb303174%20=%20janjaal from janjaal
+2024-10-19T14:45:23.542Z error: no budget found
+2024-10-19T14:45:23.543Z error: [object Object]
+2024-10-19T14:46:22.463Z info: Received a GET request for /manage/budget?BudgetId=6710e069329a6c85fb303174%20=%20janjaal
+2024-10-19T14:46:22.465Z info: Received a request for /budget?BudgetId=6710e069329a6c85fb303174%20=%20janjaal from janjaal
+2024-10-19T14:46:22.471Z error: no budget found
+2024-10-19T14:46:22.471Z error: [object Object]

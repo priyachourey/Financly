@@ -21,7 +21,7 @@ router.use((req, res, next) => {
 
 router.get('/budget' , async(req,res)=>{
     try{
-        const budgetinfo = req.query.BudgetId;
+        const budgetinfo = req.query;
         console.log(budgetinfo);
         const budgetdata = await manageService.CalculateBudget(budgetinfo);
         res.json({
