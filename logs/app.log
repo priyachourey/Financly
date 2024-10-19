@@ -1,0 +1,290 @@
+2024-08-18T17:26:18.370Z info: app listening on port 4200
+2024-08-18T17:28:57.143Z info: app listening on port 4200
+2024-08-18T17:32:01.451Z info: app listening on port 4200
+2024-08-18T17:33:03.659Z info: Received a POST request for /auth/register
+2024-08-18T17:39:53.856Z info: app listening on port 4200
+2024-08-18T17:40:16.952Z info: Received a POST request for /auth/register
+2024-08-18T17:41:38.130Z info: Received a POST request for /auth/login
+2024-08-21T16:09:33.341Z info: app listening on port 4200
+2024-08-21T16:09:52.129Z info: Received a POST request for /auth/login
+2024-08-21T16:10:02.145Z error: Operation `users.findOne()` buffering timed out after 10000ms
+2024-08-23T10:11:14.578Z info: app listening on port 4200
+2024-08-23T10:12:03.664Z info: app listening on port 4200
+2024-08-23T10:15:09.169Z info: app listening on port 4200
+2024-08-23T10:15:14.618Z info: Received a POST request for /auth/login
+2024-08-23T10:15:24.634Z error: Operation `users.findOne()` buffering timed out after 10000ms
+2024-08-23T10:15:30.181Z info: Received a POST request for /auth/login
+2024-08-23T10:17:14.767Z info: app listening on port 4200
+2024-08-23T10:17:15.398Z info: Received a POST request for /auth/login
+2024-08-23T10:17:15.410Z error: username or password is wrong
+2024-08-23T10:17:25.151Z info: Received a POST request for /auth/register
+2024-08-23T10:17:28.701Z info: Received a POST request for /auth/login
+2024-08-23T10:24:21.787Z info: Received a POST request for /auth/register
+2024-08-23T10:24:51.205Z info: Received a POST request for /auth/login
+2024-08-23T14:38:38.764Z info: app listening on port 4200
+2024-08-23T14:38:52.589Z info: Received a POST request for /transactions/transaction
+2024-08-23T14:38:52.591Z error: transactionService.createTransaction is not a function
+2024-08-23T14:41:41.028Z info: app listening on port 4200
+2024-08-23T14:41:50.507Z info: Received a POST request for /transactions/transaction
+2024-08-23T14:41:50.510Z error: transactionService.createTransaction is not a function
+2024-08-23T14:48:56.960Z info: app listening on port 4200
+2024-08-23T14:49:10.697Z info: Received a POST request for /transactions/transaction
+2024-08-23T14:49:40.850Z error: transactionService.createTransaction is not a function
+2024-08-23T14:55:11.511Z info: Received a POST request for /transactions/transaction
+2024-08-23T14:55:38.895Z info: app listening on port 4200
+2024-08-23T14:55:39.659Z info: Received a POST request for /transactions/transaction
+2024-08-23T14:55:55.332Z info: Received a GET request for /transactions/transaction
+2024-08-23T14:55:55.335Z error: jwtUtils is not defined
+2024-08-23T14:58:21.790Z info: app listening on port 4200
+2024-08-23T14:58:26.170Z info: Received a GET request for /transactions/transaction
+2024-08-23T14:58:26.175Z error: jwt must be provided
+2024-08-23T15:00:10.991Z info: Received a GET request for /transactions/transaction
+2024-08-23T15:00:10.998Z error: jwt must be provided
+2024-08-23T15:04:20.387Z info: app listening on port 4200
+2024-08-23T15:04:22.358Z info: Received a GET request for /auth/login
+2024-08-23T15:04:51.993Z info: Received a GET request for /auth/register
+2024-08-23T15:04:56.857Z info: Received a GET request for /auth/register
+2024-08-23T15:04:57.700Z info: Received a GET request for /auth/register
+2024-08-23T15:05:26.364Z info: app listening on port 4200
+2024-08-23T15:05:27.550Z info: Received a GET request for /auth/register
+2024-08-23T15:07:49.705Z info: app listening on port 4200
+2024-08-23T15:07:50.060Z info: Received a GET request for /auth/register
+2024-08-23T15:07:51.455Z info: Received a GET request for /auth/register
+2024-08-23T15:08:13.029Z info: Received a POST request for /auth/register
+2024-08-23T15:08:13.072Z error: User already exists
+2024-08-24T12:02:58.754Z info: app listening on port 4200
+2024-08-24T12:03:01.063Z info: Received a POST request for /auth/register
+2024-08-24T12:03:27.174Z info: Received a POST request for /auth/login
+2024-08-24T12:11:57.574Z info: Received a POST request for /transactions/transaction
+2024-08-24T12:12:09.313Z error: transaction validation failed: category: Cast to ObjectId failed for value "food" (type string) at path "category" because of "BSONError"
+2024-08-24T12:12:10.142Z error: some error occured while saving the transaction
+2024-08-24T12:13:23.594Z info: app listening on port 4200
+2024-08-24T12:13:25.193Z info: Received a POST request for /transactions/transaction
+2024-08-24T12:13:25.210Z error: transaction validation failed: category: Cast to ObjectId failed for value "food" (type string) at path "category" because of "BSONError"
+2024-08-24T12:13:25.211Z error: [object Object]
+2024-08-24T12:19:10.541Z info: app listening on port 4200
+2024-08-24T12:19:11.726Z info: Received a POST request for /transactions/transaction
+2024-08-24T12:19:11.737Z error: transaction validation failed: category: Cast to ObjectId failed for value "food" (type string) at path "category" because of "BSONError"
+2024-08-24T12:19:11.738Z error: [object Object]
+2024-08-24T12:19:13.172Z info: Received a POST request for /transactions/transaction
+2024-08-24T12:19:13.177Z error: transaction validation failed: category: Cast to ObjectId failed for value "food" (type string) at path "category" because of "BSONError"
+2024-08-24T12:19:13.178Z error: [object Object]
+2024-08-24T12:21:02.772Z info: app listening on port 4200
+2024-08-24T12:21:03.336Z info: Received a POST request for /transactions/transaction
+2024-08-24T12:21:36.913Z info: app listening on port 4200
+2024-08-24T12:21:37.746Z info: Received a GET request for /transactions/transaction
+2024-08-24T12:21:37.750Z error: transactionService.getTransactioList is not a function
+2024-08-24T12:23:33.594Z info: app listening on port 4200
+2024-08-24T12:23:36.542Z info: Received a GET request for /transactions/transaction
+2024-08-24T12:36:40.014Z info: app listening on port 4200
+2024-08-24T12:36:51.547Z info: Received a POST request for /categories/category
+2024-08-24T12:36:51.548Z error: categoryService.createcategory is not a function
+2024-09-12T10:56:54.990Z info: app listening on port 4200
+2024-09-12T10:56:59.629Z info: Received a POST request for /auth/register
+2024-09-12T10:57:35.444Z info: Received a POST request for /auth/login
+2024-09-12T11:01:34.006Z info: app listening on port 4200
+2024-09-12T11:01:38.059Z info: Received a POST request for /categories/category
+2024-09-12T11:01:38.061Z error: categoryService.createCategory is not a function
+2024-09-12T11:03:28.971Z info: app listening on port 4200
+2024-09-12T11:03:30.503Z info: Received a POST request for /categories/category
+2024-09-12T11:03:58.846Z info: Received a POST request for /categories/category
+2024-09-12T11:04:39.730Z info: Received a POST request for /categories/category
+2024-09-12T11:05:10.438Z info: Received a POST request for /categories/category
+2024-09-12T11:06:05.325Z info: Received a GET request for /categories/category
+2024-09-12T11:06:05.327Z error: jwtUtils is not defined
+2024-09-12T11:08:23.256Z info: app listening on port 4200
+2024-09-12T11:08:24.060Z info: Received a GET request for /categories/category
+2024-09-12T11:08:24.068Z error: jwt expired
+2024-09-12T11:09:40.494Z info: Received a GET request for /categories/category
+2024-09-13T12:50:50.659Z info: app listening on port 4200
+2024-09-13T12:50:53.207Z info: Received a GET request for /transactions/transaction
+2024-09-13T12:50:53.214Z error: jwt expired
+2024-09-13T12:51:12.935Z info: Received a GET request for /transactions/transaction
+2024-09-13T12:51:12.939Z error: jwt expired
+2024-09-13T12:52:14.422Z info: app listening on port 4200
+2024-09-13T12:52:16.389Z info: Received a GET request for /transactions/transaction
+2024-09-13T12:52:16.396Z error: jwt expired
+2024-09-16T04:46:00.557Z info: app listening on port 4200
+2024-09-16T04:46:06.910Z info: Received a POST request for /auth/login
+2024-09-16T04:50:26.197Z info: Received a POST request for /transactions/transaction
+2024-09-16T04:50:26.217Z error: collection name has invalid type object
+2024-09-16T04:50:26.218Z error: [object Object]
+2024-09-16T04:58:33.724Z info: Received a POST request for /transactions/transaction
+2024-09-16T04:58:33.732Z error: collection name has invalid type object
+2024-09-16T04:58:33.733Z error: [object Object]
+2024-09-16T04:59:41.051Z info: Received a POST request for /transactions/transaction
+2024-09-16T04:59:41.062Z error: collection name has invalid type object
+2024-09-16T04:59:41.063Z error: [object Object]
+2024-09-16T05:01:41.126Z info: Received a POST request for /transactions/transaction
+2024-09-16T05:01:41.134Z error: collection name has invalid type object
+2024-09-16T05:01:41.135Z error: [object Object]
+2024-09-16T05:01:42.199Z info: Received a POST request for /transactions/transaction
+2024-09-16T05:01:42.209Z error: collection name has invalid type object
+2024-09-16T05:01:42.210Z error: [object Object]
+2024-09-16T05:02:02.800Z info: Received a POST request for /transactions/transaction
+2024-09-16T05:02:02.811Z error: collection name has invalid type object
+2024-09-16T05:02:02.812Z error: [object Object]
+2024-09-16T05:03:00.845Z info: Received a POST request for /transactions/transaction
+2024-09-16T05:03:00.857Z error: collection name has invalid type object
+2024-09-16T05:03:00.858Z error: [object Object]
+2024-09-16T05:03:34.191Z info: Received a POST request for /transactions/transaction
+2024-09-16T05:03:34.206Z error: collection name has invalid type object
+2024-09-16T05:03:34.207Z error: [object Object]
+2024-09-16T05:03:43.393Z info: app listening on port 4200
+2024-09-16T05:03:44.464Z info: Received a POST request for /transactions/transaction
+2024-09-16T05:04:50.866Z info: app listening on port 4200
+2024-09-16T05:04:52.281Z info: Received a POST request for /transactions/transaction
+2024-09-16T05:04:52.299Z error: transaction validation failed: type: ` expense` is not a valid enum value for path `type`.
+2024-09-16T05:04:52.300Z error: [object Object]
+2024-09-16T05:06:10.927Z info: app listening on port 4200
+2024-09-16T05:06:21.269Z info: Received a POST request for /transactions/transaction
+2024-09-16T05:06:21.287Z error: collection name has invalid type object
+2024-09-16T05:06:21.287Z error: [object Object]
+2024-09-16T05:10:27.793Z info: app listening on port 4200
+2024-09-16T05:10:36.989Z info: Received a POST request for /transactions/transaction
+2024-09-16T05:10:37.002Z error: transaction validation failed: category: Cast to ObjectId failed for value "{ type: '66e2ca822bc11d00b50b5e6e' }" (type Object) at path "category" because of "BSONError"
+2024-09-16T05:10:37.003Z error: [object Object]
+2024-09-16T05:10:40.313Z info: Received a POST request for /transactions/transaction
+2024-09-16T05:10:40.320Z error: transaction validation failed: category: Cast to ObjectId failed for value "{ type: '66e2ca822bc11d00b50b5e6e' }" (type Object) at path "category" because of "BSONError"
+2024-09-16T05:10:40.320Z error: [object Object]
+2024-09-16T05:10:41.594Z info: Received a POST request for /transactions/transaction
+2024-09-16T05:10:41.600Z error: transaction validation failed: category: Cast to ObjectId failed for value "{ type: '66e2ca822bc11d00b50b5e6e' }" (type Object) at path "category" because of "BSONError"
+2024-09-16T05:10:41.601Z error: [object Object]
+2024-09-16T05:10:42.947Z info: Received a POST request for /transactions/transaction
+2024-09-16T05:10:42.952Z error: transaction validation failed: category: Cast to ObjectId failed for value "{ type: '66e2ca822bc11d00b50b5e6e' }" (type Object) at path "category" because of "BSONError"
+2024-09-16T05:10:42.953Z error: [object Object]
+2024-09-16T05:18:14.544Z info: app listening on port 4200
+2024-09-16T05:18:15.969Z info: Received a POST request for /transactions/transaction
+2024-09-16T05:18:15.970Z error: mongoose is not defined
+2024-09-16T05:18:15.971Z error: [object Object]
+2024-09-16T05:20:02.279Z info: app listening on port 4200
+2024-09-16T05:20:02.678Z info: Received a POST request for /transactions/transaction
+2024-09-16T05:20:02.683Z error: mongoose is not defined
+2024-09-16T05:20:02.685Z error: [object Object]
+2024-09-16T05:22:31.383Z info: app listening on port 4200
+2024-09-16T05:27:52.625Z info: app listening on port 4200
+2024-09-16T05:28:22.066Z info: app listening on port 4200
+2024-09-16T05:28:48.677Z info: app listening on port 4200
+2024-09-16T05:31:25.410Z info: app listening on port 4200
+2024-09-16T05:31:40.355Z info: Received a POST request for /transactions/transaction
+2024-09-16T05:32:11.809Z info: app listening on port 4200
+2024-09-16T05:32:15.181Z info: Received a POST request for /transactions/transaction
+2024-09-16T05:33:55.687Z info: app listening on port 4200
+2024-09-16T05:33:59.585Z info: Received a POST request for /transactions/transaction
+2024-09-16T05:35:01.659Z info: app listening on port 4200
+2024-09-16T05:35:05.107Z info: Received a POST request for /transactions/transaction
+2024-09-16T05:37:39.421Z error: collection name has invalid type object
+2024-09-16T05:37:43.327Z error: [object Object]
+2024-09-16T08:21:55.994Z info: app listening on port 4200
+2024-09-16T08:22:01.063Z info: Received a POST request for /transactions/transaction
+2024-09-16T08:22:01.090Z error: collection name has invalid type object
+2024-09-16T08:22:01.091Z error: [object Object]
+2024-09-16T08:37:31.407Z info: app listening on port 4200
+2024-09-16T08:37:33.886Z info: Received a POST request for /transactions/transaction
+2024-09-16T08:37:33.900Z error: collection name has invalid type object
+2024-09-16T08:37:33.901Z error: [object Object]
+2024-09-16T08:37:40.732Z info: Received a POST request for /transactions/transaction
+2024-09-16T08:37:40.745Z error: collection name has invalid type object
+2024-09-16T08:37:40.746Z error: [object Object]
+2024-09-16T08:44:25.955Z info: app listening on port 4200
+2024-09-16T08:44:27.982Z info: Received a POST request for /transactions/transaction
+2024-09-16T08:44:28.004Z error: collection name has invalid type object
+2024-09-16T08:44:28.005Z error: [object Object]
+2024-09-16T08:56:23.783Z info: app listening on port 4200
+2024-09-16T08:56:25.391Z info: Received a POST request for /transactions/transaction
+2024-09-16T08:56:25.412Z error: collection name has invalid type object
+2024-09-16T08:57:23.002Z info: app listening on port 4200
+2024-09-16T08:57:28.485Z info: Received a POST request for /transactions/transaction
+2024-09-16T08:57:28.499Z error: collection name has invalid type object
+2024-09-16T08:57:28.501Z error: [object Object]
+2024-09-16T09:07:41.401Z info: app listening on port 4200
+2024-09-16T09:07:46.656Z info: Received a POST request for /transactions/transaction
+2024-09-16T09:14:24.339Z info: app listening on port 4200
+2024-09-16T09:14:37.969Z info: app listening on port 4200
+2024-09-16T09:14:48.876Z info: app listening on port 4200
+2024-09-16T09:14:58.565Z info: Received a POST request for /transactions/transaction
+2024-09-16T09:17:19.637Z info: app listening on port 4200
+2024-09-16T09:17:23.689Z info: Received a POST request for /transactions/transaction
+2024-09-16T09:18:01.639Z info: Received a POST request for /transactions/transaction
+2024-09-16T09:19:14.030Z info: Received a POST request for /transactions/transaction
+2024-09-16T09:19:15.944Z error: transaction validation failed: type: `gffthfh` is not a valid enum value for path `type`.
+2024-09-16T09:19:15.945Z error: [object Object]
+2024-09-16T09:20:51.187Z info: app listening on port 4200
+2024-09-16T09:20:54.079Z info: Received a POST request for /transactions/transaction
+2024-09-16T09:20:56.379Z error: transaction validation failed: type: `gffthfh` is not a valid enum value for path `type`.
+2024-09-16T09:20:56.381Z error: [object Object]
+2024-09-16T09:21:47.994Z info: app listening on port 4200
+2024-09-16T09:21:50.409Z info: Received a POST request for /transactions/transaction
+2024-09-16T09:21:52.560Z error: transaction validation failed: type: `gffthfh` is not a valid enum value for path `type`.
+2024-09-16T09:21:52.569Z error: [object Object]
+2024-09-16T09:21:59.377Z info: Received a POST request for /transactions/transaction
+2024-09-16T09:22:01.749Z error: transaction validation failed: type: `gffthfh` is not a valid enum value for path `type`.
+2024-09-16T09:22:01.751Z error: [object Object]
+2024-09-18T02:15:53.523Z info: app listening on port 4200
+2024-09-18T02:16:00.406Z info: Received a POST request for /transactions/transaction
+2024-09-18T02:16:27.131Z info: Received a GET request for /transactions/transaction
+2024-09-18T02:16:27.140Z error: jwt expired
+2024-09-18T02:17:28.979Z info: Received a GET request for /auth/login
+2024-09-18T02:17:37.955Z info: Received a POST request for /auth/login
+2024-09-18T02:18:18.253Z info: Received a GET request for /transactions/transaction
+2024-09-18T02:18:18.259Z error: jwt expired
+2024-09-18T02:18:47.261Z info: app listening on port 4200
+2024-09-18T02:18:59.530Z info: Received a GET request for /transactions/transaction
+2024-09-18T02:18:59.546Z error: jwt expired
+2024-09-18T02:19:16.767Z info: Received a GET request for /transactions/transaction
+2024-09-18T02:20:45.865Z info: app listening on port 4200
+2024-09-18T02:20:45.962Z info: Received a GET request for /transactions/transaction
+2024-09-18T02:22:33.929Z info: app listening on port 4200
+2024-09-18T02:22:39.010Z info: Received a GET request for /transactions/transaction
+2024-09-18T03:09:29.727Z info: app listening on port 4200
+2024-09-18T03:09:33.015Z info: Received a GET request for /transactions/transaction
+2024-09-18T03:12:17.314Z info: app listening on port 4200
+2024-09-18T03:12:19.661Z info: Received a GET request for /transactions/transaction
+2024-09-18T03:17:11.298Z info: app listening on port 4200
+2024-09-18T03:17:13.192Z info: Received a GET request for /transactions/transaction
+2024-09-18T03:18:52.907Z info: app listening on port 4200
+2024-09-18T03:18:53.251Z info: Received a GET request for /transactions/transaction
+2024-09-18T03:18:55.840Z error: jwt expired
+2024-09-18T03:19:12.600Z info: app listening on port 4200
+2024-09-18T03:19:16.017Z info: Received a GET request for /transactions/transaction
+2024-09-18T03:19:18.976Z error: jwt expired
+2024-09-18T03:20:03.386Z info: app listening on port 4200
+2024-09-18T03:20:04.234Z info: Received a POST request for /auth/login
+2024-09-18T03:20:43.838Z info: Received a GET request for /transactions/transaction
+2024-09-18T03:21:13.460Z info: app listening on port 4200
+2024-09-18T03:21:18.786Z info: Received a GET request for /transactions/transaction
+2024-09-18T03:22:47.907Z info: app listening on port 4200
+2024-09-18T03:22:48.017Z info: Received a GET request for /transactions/transaction
+2024-09-18T03:23:25.338Z info: app listening on port 4200
+2024-09-18T03:23:26.154Z info: Received a GET request for /transactions/transaction
+2024-09-18T03:26:04.748Z info: app listening on port 4200
+2024-09-18T03:26:06.996Z info: Received a POST request for /transactions/transaction
+2024-09-18T03:26:30.310Z info: Received a POST request for /transactions/transaction
+2024-09-18T03:26:35.928Z info: Received a GET request for /transactions/transaction
+2024-09-18T04:01:21.969Z info: app listening on port 4200
+2024-09-18T04:01:24.432Z info: Received a POST request for /transactions/transaction
+2024-09-18T04:02:12.259Z info: Received a POST request for /budgets/budget
+2024-09-18T04:05:11.174Z info: Received a POST request for /budgets/budget
+2024-09-18T04:06:27.071Z info: app listening on port 4200
+2024-09-18T04:06:28.562Z info: Received a GET request for /budgets/budget
+2024-09-18T04:06:33.617Z info: Received a POST request for /budgets/budget
+2024-09-18T04:06:43.384Z info: Received a POST request for /budgets/budget
+2024-09-18T04:06:45.680Z info: Received a POST request for /budgets/budget
+2024-09-18T04:07:33.871Z info: app listening on port 4200
+2024-09-18T04:07:34.430Z info: Received a GET request for /budgets/budget
+2024-09-18T04:08:04.353Z info: app listening on port 4200
+2024-09-18T04:08:04.821Z info: Received a GET request for /budgets/budget
+2024-09-18T04:10:46.840Z info: app listening on port 4200
+2024-09-18T04:10:50.992Z info: Received a GET request for /budgets/budget
+2024-09-18T04:13:58.339Z info: app listening on port 4200
+2024-09-18T04:14:04.783Z info: Received a GET request for /budgets/budget
+2024-09-18T04:14:04.785Z error: jwtUtils is not defined
+2024-09-18T04:15:35.049Z info: app listening on port 4200
+2024-09-18T04:15:54.159Z info: Received a GET request for /budgets/budget
+2024-10-11T06:01:41.469Z info: app listening on port 8000
+2024-10-11T06:01:51.186Z info: Received a POST request for /auth/register
+2024-10-11T06:02:01.281Z error: Operation `users.findOne()` buffering timed out after 10000ms
+2024-10-11T06:04:03.650Z info: app listening on port 8000
+2024-10-11T06:04:27.697Z info: Received a POST request for /auth/register
+2024-10-11T06:04:27.713Z error: User already exists
+2024-10-11T06:04:56.756Z info: Received a POST request for /auth/login
