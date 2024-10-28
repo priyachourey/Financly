@@ -288,3 +288,241 @@
 2024-10-11T06:04:27.697Z info: Received a POST request for /auth/register
 2024-10-11T06:04:27.713Z error: User already exists
 2024-10-11T06:04:56.756Z info: Received a POST request for /auth/login
+2024-10-19T14:47:10.396Z info: app listening on port 8000
+2024-10-19T14:47:38.102Z info: app listening on port 8000
+2024-10-19T14:48:54.375Z info: Received a GET request for /manage/budget?BudgetId=6710e069329a6c85fb303174%20=%20janjaal
+2024-10-19T14:48:54.382Z info: Received a request for /budget?BudgetId=6710e069329a6c85fb303174%20=%20janjaal from janjaal
+2024-10-19T14:49:53.596Z info: app listening on port 8000
+2024-10-19T14:50:17.476Z info: app listening on port 8000
+2024-10-20T07:32:36.875Z info: app listening on port 8000
+2024-10-20T07:32:53.479Z info: app listening on port 8000
+2024-10-20T07:32:55.545Z info: Received a GET request for /manage/budget?BudgetId=6712439191d6af1b45a3b670%20=%20janjaal
+2024-10-20T07:33:10.659Z info: Received a POST request for /auth/login
+2024-10-20T07:33:20.670Z error: Operation `users.findOne()` buffering timed out after 10000ms
+2024-10-20T07:33:58.879Z info: app listening on port 8000
+2024-10-20T07:33:59.794Z info: Received a POST request for /auth/login
+2024-10-20T07:34:09.811Z error: Operation `users.findOne()` buffering timed out after 10000ms
+2024-10-20T07:34:21.228Z info: app listening on port 8000
+2024-10-20T07:34:22.053Z info: Received a POST request for /auth/login
+2024-10-20T07:34:32.064Z error: Operation `users.findOne()` buffering timed out after 10000ms
+2024-10-20T07:38:24.393Z info: app listening on port 8000
+2024-10-20T07:38:25.369Z info: Received a GET request for /manage/budget?BudgetId=6712439191d6af1b45a3b670%20=%20janjaal
+2024-10-20T07:45:16.359Z info: app listening on port 8000
+2024-10-20T07:45:21.725Z info: Received a GET request for /manage/budget?BudgetId=6712439191d6af1b45a3b670%20=%20janjaal
+2024-10-20T07:46:17.233Z info: app listening on port 8000
+2024-10-20T07:51:36.893Z info: app listening on port 8000
+2024-10-20T07:51:37.882Z info: Received a GET request for /manage/budget?BudgetId=6712439191d6af1b45a3b670%20
+2024-10-20T07:52:03.269Z info: app listening on port 8000
+2024-10-20T07:53:41.289Z info: app listening on port 8000
+2024-10-20T07:53:41.492Z info: Received a GET request for /manage/budget?BudgetId=6712439191d6af1b45a3b670%20
+2024-10-20T07:54:44.747Z info: app listening on port 8000
+2024-10-20T07:54:45.758Z info: Received a GET request for /manage/budget?BudgetId=6712439191d6af1b45a3b670%20
+2024-10-20T07:57:21.647Z info: app listening on port 8000
+2024-10-20T07:57:22.356Z info: Received a GET request for /manage/budget?BudgetId=6712439191d6af1b45a3b670%20
+2024-10-20T07:57:22.363Z info: Received a request for /budget?BudgetId=6712439191d6af1b45a3b670%20 from janjaal
+2024-10-20T07:57:48.547Z error: input must be a 24 character hex string, 12 byte Uint8Array, or an integer
+2024-10-20T07:57:59.685Z error: [object Object]
+2024-10-20T08:00:09.368Z info: app listening on port 8000
+2024-10-20T08:00:10.342Z info: Received a GET request for /manage/budget?BudgetId=6712439191d6af1b45a3b670%20
+2024-10-20T08:02:35.222Z info: app listening on port 8000
+2024-10-20T08:02:35.344Z info: Received a GET request for /manage/budget?BudgetId=6712439191d6af1b45a3b670%20
+2024-10-20T08:06:56.359Z info: app listening on port 8000
+2024-10-20T08:06:57.232Z info: Received a GET request for /manage/budget?BudgetId=6712439191d6af1b45a3b670%20
+2024-10-20T08:07:58.447Z info: app listening on port 8000
+2024-10-20T08:07:58.645Z info: Received a GET request for /manage/budget?BudgetId=6712439191d6af1b45a3b670%20
+2024-10-20T08:12:54.439Z info: app listening on port 8000
+2024-10-20T08:12:55.154Z info: Received a GET request for /manage/budget?BudgetId=6712439191d6af1b45a3b670%20
+2024-10-20T08:18:09.765Z info: app listening on port 8000
+2024-10-20T08:18:10.206Z info: Received a GET request for /manage/budget?BudgetId=6712439191d6af1b45a3b670%20
+2024-10-20T08:21:27.679Z info: app listening on port 8000
+2024-10-20T08:21:29.068Z info: Received a GET request for /manage/budget?BudgetId=6712439191d6af1b45a3b670%20
+2024-10-20T13:10:48.844Z info: app listening on port 8000
+2024-10-20T13:10:49.549Z info: Received a GET request for /manage/budget?BudgetId=6712439191d6af1b45a3b670%20
+2024-10-20T13:11:03.828Z info: Received a POST request for /auth/login
+2024-10-20T13:11:24.169Z info: Received a GET request for /manage/budget?BudgetId=6712439191d6af1b45a3b670%20
+2024-10-20T13:11:32.243Z info: Received a GET request for /manage/budget?BudgetId=6712439191d6af1b45a3b670%20
+2024-10-20T13:46:57.088Z info: app listening on port 8000
+2024-10-20T13:46:57.917Z info: Received a GET request for /manage/budget?BudgetId=6712439191d6af1b45a3b670%20
+2024-10-20T13:46:57.928Z info: Received a request for /budget?BudgetId=6712439191d6af1b45a3b670%20 from janjaal
+2024-10-20T13:49:55.590Z info: app listening on port 8000
+2024-10-20T13:49:57.142Z info: Received a GET request for /manage/budget?BudgetId=6712439191d6af1b45a3b670%20
+2024-10-20T13:49:57.150Z info: Received a request for /budget?BudgetId=6712439191d6af1b45a3b670%20 from janjaal
+2024-10-20T13:50:57.257Z error: no budget found
+2024-10-20T13:51:01.656Z error: [object Object]
+2024-10-20T13:54:12.402Z info: app listening on port 8000
+2024-10-20T13:54:20.750Z info: Received a GET request for /manage/budget?BudgetId=6712439191d6af1b45a3b670%20
+2024-10-20T13:57:32.497Z info: app listening on port 8000
+2024-10-20T13:57:33.101Z info: Received a GET request for /manage/budget?BudgetId=6712439191d6af1b45a3b670%20
+2024-10-20T13:57:33.106Z info: Received a request for /budget?BudgetId=6712439191d6af1b45a3b670%20 from janjaal
+2024-10-20T13:59:14.148Z error: no budget found
+2024-10-20T13:59:16.270Z error: [object Object]
+2024-10-20T14:06:37.534Z info: app listening on port 8000
+2024-10-20T14:06:37.683Z info: Received a GET request for /manage/budget?BudgetId=6712439191d6af1b45a3b670%20
+2024-10-20T14:16:20.657Z info: app listening on port 8000
+2024-10-20T14:16:21.732Z info: Received a GET request for /manage/budget?BudgetId=6712439191d6af1b45a3b670%20
+2024-10-20T14:16:45.262Z info: app listening on port 8000
+2024-10-20T14:16:45.560Z info: Received a POST request for /auth/login
+2024-10-20T14:17:11.923Z info: Received a GET request for /manage/budget?BudgetId=6712439191d6af1b45a3b670%20
+2024-10-20T14:18:47.542Z info: app listening on port 8000
+2024-10-20T14:18:49.108Z info: Received a GET request for /manage/budget?BudgetId=6712439191d6af1b45a3b670%20
+2024-10-20T14:18:49.112Z info: Received a request for /budget?BudgetId=6712439191d6af1b45a3b670%20 from janjaal
+2024-10-20T14:19:43.268Z info: app listening on port 8000
+2024-10-20T14:19:43.887Z info: Received a GET request for /manage/budget?BudgetId=6712439191d6af1b45a3b670%20
+2024-10-20T14:19:43.894Z info: Received a request for /budget?BudgetId=6712439191d6af1b45a3b670%20 from janjaal
+2024-10-20T14:21:45.015Z info: app listening on port 8000
+2024-10-20T14:21:45.259Z info: Received a GET request for /manage/budget?BudgetId=6712439191d6af1b45a3b670%20
+2024-10-20T14:22:32.027Z info: app listening on port 8000
+2024-10-20T14:22:39.064Z info: Received a GET request for /manage/budget?BudgetId=6712439191d6af1b45a3b670%20
+2024-10-20T14:22:39.068Z info: Received a request for /budget?BudgetId=6712439191d6af1b45a3b670%20 from janjaal
+2024-10-20T14:48:10.535Z info: app listening on port 8000
+2024-10-20T14:48:11.343Z info: Received a GET request for /manage/budget?BudgetId=6712439191d6af1b45a3b670%20
+2024-10-20T14:50:55.205Z info: app listening on port 8000
+2024-10-20T14:50:55.669Z info: Received a GET request for /manage/budget?BudgetId=6712439191d6af1b45a3b670%20
+2024-10-20T14:52:47.340Z info: app listening on port 8000
+2024-10-20T14:52:47.895Z info: Received a GET request for /manage/budget?BudgetId=6712439191d6af1b45a3b670%20
+2024-10-20T14:57:28.318Z info: app listening on port 8000
+2024-10-20T14:57:28.693Z info: Received a GET request for /manage/budget?BudgetId=6712439191d6af1b45a3b670%20
+2024-10-20T14:57:28.697Z info: Received a request for /budget?BudgetId=6712439191d6af1b45a3b670%20 from janjaal
+2024-10-20T14:57:38.159Z error: no budget found
+2024-10-20T14:57:38.160Z error: [object Object]
+2024-10-20T15:20:47.991Z info: app listening on port 8000
+2024-10-20T15:20:48.233Z info: Received a GET request for /manage/budget?BudgetId=6712439191d6af1b45a3b670%20
+2024-10-20T15:21:07.852Z info: app listening on port 8000
+2024-10-20T15:21:09.377Z info: Received a POST request for /auth/login
+2024-10-20T15:21:29.657Z info: Received a GET request for /manage/budget?BudgetId=6712439191d6af1b45a3b670%20
+2024-10-20T15:23:04.553Z info: app listening on port 8000
+2024-10-20T15:23:05.373Z info: Received a GET request for /manage/budget?BudgetId=6712439191d6af1b45a3b670%20
+2024-10-20T15:23:05.382Z info: Received a request for /budget?BudgetId=6712439191d6af1b45a3b670%20 from janjaal
+2024-10-20T15:24:26.277Z info: app listening on port 8000
+2024-10-20T15:24:26.729Z info: Received a GET request for /manage/budget?BudgetId=6712439191d6af1b45a3b670%20
+2024-10-20T15:24:26.735Z info: Received a request for /budget?BudgetId=6712439191d6af1b45a3b670%20 from janjaal
+2024-10-20T15:25:02.727Z error: no budget found
+2024-10-20T15:25:04.300Z error: [object Object]
+2024-10-20T15:42:48.695Z info: app listening on port 8000
+2024-10-20T15:42:52.791Z info: Received a GET request for /manage/budget?BudgetId=6712439191d6af1b45a3b670%20
+2024-10-20T15:42:52.799Z info: Received a request for /budget?BudgetId=6712439191d6af1b45a3b670%20 from janjaal
+2024-10-20T15:47:24.284Z info: app listening on port 8000
+2024-10-20T15:47:24.841Z info: Received a GET request for /manage/budget?BudgetId=6712439191d6af1b45a3b670%20
+2024-10-20T15:47:24.845Z info: Received a request for /budget?BudgetId=6712439191d6af1b45a3b670%20 from janjaal
+2024-10-20T15:51:34.347Z info: app listening on port 8000
+2024-10-20T15:51:34.770Z info: Received a GET request for /manage/budget?BudgetId=6712439191d6af1b45a3b670%20
+2024-10-20T15:56:13.707Z info: app listening on port 8000
+2024-10-20T15:56:14.133Z info: Received a GET request for /manage/budget?BudgetId=6712439191d6af1b45a3b670%20
+2024-10-20T15:57:28.369Z info: app listening on port 8000
+2024-10-20T15:57:29.110Z info: Received a GET request for /manage/budget?BudgetId=6712439191d6af1b45a3b670%20
+2024-10-20T15:58:21.154Z info: app listening on port 8000
+2024-10-20T15:58:21.274Z info: Received a GET request for /manage/budget?BudgetId=6712439191d6af1b45a3b670%20
+2024-10-20T16:50:45.539Z info: app listening on port 8000
+2024-10-20T16:50:46.194Z info: Received a GET request for /manage/budget?BudgetId=6712439191d6af1b45a3b670%20
+2024-10-20T16:50:52.914Z info: Received a POST request for /auth/login
+2024-10-20T16:51:10.942Z info: Received a POST request for /auth/login
+2024-10-20T16:51:15.418Z info: Received a GET request for /manage/budget?BudgetId=6712439191d6af1b45a3b670%20
+2024-10-20T16:51:16.273Z info: Received a GET request for /manage/budget?BudgetId=6712439191d6af1b45a3b670%20
+2024-10-20T16:51:17.225Z info: Received a GET request for /manage/budget?BudgetId=6712439191d6af1b45a3b670%20
+2024-10-20T16:51:18.058Z info: Received a GET request for /manage/budget?BudgetId=6712439191d6af1b45a3b670%20
+2024-10-20T16:51:28.219Z info: app listening on port 8000
+2024-10-20T16:51:28.492Z info: Received a GET request for /manage/budget?BudgetId=6712439191d6af1b45a3b670%20
+2024-10-20T16:51:29.292Z info: Received a GET request for /manage/budget?BudgetId=6712439191d6af1b45a3b670%20
+2024-10-20T16:51:30.058Z info: Received a GET request for /manage/budget?BudgetId=6712439191d6af1b45a3b670%20
+2024-10-20T16:51:30.747Z info: Received a GET request for /manage/budget?BudgetId=6712439191d6af1b45a3b670%20
+2024-10-20T16:51:31.070Z info: Received a GET request for /manage/budget?BudgetId=6712439191d6af1b45a3b670%20
+2024-10-20T16:51:31.279Z info: Received a GET request for /manage/budget?BudgetId=6712439191d6af1b45a3b670%20
+2024-10-20T16:52:06.900Z info: app listening on port 8000
+2024-10-20T16:52:12.359Z info: Received a GET request for /manage/budget?BudgetId=6712439191d6af1b45a3b670%20
+2024-10-20T16:52:12.364Z info: Received a request for /budget?BudgetId=6712439191d6af1b45a3b670%20 from janjaal
+2024-10-20T16:52:12.433Z error: no budget found
+2024-10-20T16:52:12.434Z error: [object Object]
+2024-10-20T16:52:18.255Z info: Received a GET request for /manage/budget?BudgetId=6712439191d6af1b45a3b670%20
+2024-10-20T16:52:18.259Z info: Received a request for /budget?BudgetId=6712439191d6af1b45a3b670%20 from janjaal
+2024-10-20T16:52:18.267Z error: no budget found
+2024-10-20T16:52:18.268Z error: [object Object]
+2024-10-20T16:52:19.129Z info: Received a GET request for /manage/budget?BudgetId=6712439191d6af1b45a3b670%20
+2024-10-20T16:52:19.131Z info: Received a request for /budget?BudgetId=6712439191d6af1b45a3b670%20 from janjaal
+2024-10-20T16:52:19.139Z error: no budget found
+2024-10-20T16:52:19.140Z error: [object Object]
+2024-10-20T16:52:20.073Z info: Received a GET request for /manage/budget?BudgetId=6712439191d6af1b45a3b670%20
+2024-10-20T16:52:20.076Z info: Received a request for /budget?BudgetId=6712439191d6af1b45a3b670%20 from janjaal
+2024-10-20T16:52:20.083Z error: no budget found
+2024-10-20T16:52:20.085Z error: [object Object]
+2024-10-20T16:52:52.269Z info: app listening on port 8000
+2024-10-20T16:52:55.482Z info: Received a GET request for /manage/budget?BudgetId=6712439191d6af1b45a3b670%20
+2024-10-20T16:52:55.487Z info: Received a request for /budget?BudgetId=6712439191d6af1b45a3b670%20 from janjaal
+2024-10-20T16:53:37.625Z info: app listening on port 8000
+2024-10-20T16:53:38.001Z info: Received a GET request for /manage/budget?BudgetId=6712439191d6af1b45a3b670%20
+2024-10-20T16:53:38.006Z info: Received a request for /budget?BudgetId=6712439191d6af1b45a3b670%20 from janjaal
+2024-10-20T17:42:06.687Z info: app listening on port 8000
+2024-10-20T17:42:07.491Z info: Received a GET request for /manage/budget?BudgetId=6712439191d6af1b45a3b670%20
+2024-10-20T17:42:07.500Z info: Received a request for /budget?BudgetId=6712439191d6af1b45a3b670%20 from janjaal
+2024-10-20T17:52:02.657Z info: app listening on port 8000
+2024-10-20T17:52:02.992Z info: Received a GET request for /manage/budget?BudgetId=6712439191d6af1b45a3b670%20
+2024-10-20T17:52:07.952Z info: Received a POST request for /auth/login
+2024-10-20T17:52:27.043Z info: Received a GET request for /manage/budget?BudgetId=6712439191d6af1b45a3b670%20
+2024-10-20T17:52:27.049Z info: Received a request for /budget?BudgetId=6712439191d6af1b45a3b670%20 from janjaal
+2024-10-20T17:52:51.024Z error: no budget found
+2024-10-20T17:54:22.337Z info: app listening on port 8000
+2024-10-20T17:54:22.625Z info: Received a GET request for /manage/budget?BudgetId=6712439191d6af1b45a3b670%20
+2024-10-20T17:54:22.629Z info: Received a request for /budget?BudgetId=6712439191d6af1b45a3b670%20 from janjaal
+2024-10-20T17:59:54.219Z info: app listening on port 8000
+2024-10-20T17:59:54.447Z info: Received a GET request for /manage/budget?BudgetId=6712439191d6af1b45a3b670%20
+2024-10-20T17:59:54.451Z info: Received a request for /budget?BudgetId=6712439191d6af1b45a3b670%20 from janjaal
+2024-10-20T18:01:04.171Z info: app listening on port 8000
+2024-10-20T18:01:04.380Z info: Received a GET request for /manage/budget?BudgetId=6712439191d6af1b45a3b670%20
+2024-10-20T18:01:04.384Z info: Received a request for /budget?BudgetId=6712439191d6af1b45a3b670%20 from janjaal
+2024-10-20T18:02:11.710Z info: app listening on port 8000
+2024-10-20T18:02:11.774Z info: Received a GET request for /manage/budget?BudgetId=6712439191d6af1b45a3b670
+2024-10-20T18:02:11.782Z info: Received a request for /budget?BudgetId=6712439191d6af1b45a3b670 from janjaal
+2024-10-20T18:03:09.602Z info: app listening on port 8000
+2024-10-20T18:03:10.195Z info: Received a GET request for /manage/budget?BudgetId=6712439191d6af1b45a3b670
+2024-10-20T18:03:10.200Z info: Received a request for /budget?BudgetId=6712439191d6af1b45a3b670 from janjaal
+2024-10-20T18:07:23.884Z info: app listening on port 8000
+2024-10-20T18:07:24.083Z info: Received a POST request for /budgets/budget
+2024-10-20T18:07:24.090Z info: Received a request for /budget from janjaal
+2024-10-20T18:07:24.112Z error: budget validation failed: expiry: Cast to date failed for value "Invalid Date" (type Date) at path "expiry"
+2024-10-20T18:07:24.113Z error: some error occured while saving the Budget
+2024-10-20T18:09:01.534Z info: Received a POST request for /budgets/budget
+2024-10-20T18:09:01.547Z info: Received a request for /budget from janjaal
+2024-10-20T18:09:01.559Z error: budget validation failed: expiry: Cast to date failed for value "Invalid Date" (type Date) at path "expiry"
+2024-10-20T18:09:01.561Z error: some error occured while saving the Budget
+2024-10-20T18:09:02.525Z info: Received a POST request for /budgets/budget
+2024-10-20T18:09:02.535Z info: Received a request for /budget from janjaal
+2024-10-20T18:09:02.543Z error: budget validation failed: expiry: Cast to date failed for value "Invalid Date" (type Date) at path "expiry"
+2024-10-20T18:09:02.544Z error: some error occured while saving the Budget
+2024-10-20T18:09:03.323Z info: Received a POST request for /budgets/budget
+2024-10-20T18:09:03.331Z info: Received a request for /budget from janjaal
+2024-10-20T18:09:03.337Z error: budget validation failed: expiry: Cast to date failed for value "Invalid Date" (type Date) at path "expiry"
+2024-10-20T18:09:03.338Z error: some error occured while saving the Budget
+2024-10-20T18:09:04.178Z info: Received a POST request for /budgets/budget
+2024-10-20T18:09:04.184Z info: Received a request for /budget from janjaal
+2024-10-20T18:09:04.190Z error: budget validation failed: expiry: Cast to date failed for value "Invalid Date" (type Date) at path "expiry"
+2024-10-20T18:09:04.192Z error: some error occured while saving the Budget
+2024-10-20T18:09:05.458Z info: Received a POST request for /budgets/budget
+2024-10-20T18:09:05.466Z info: Received a request for /budget from janjaal
+2024-10-20T18:09:05.469Z error: budget validation failed: expiry: Cast to date failed for value "Invalid Date" (type Date) at path "expiry"
+2024-10-20T18:09:05.470Z error: some error occured while saving the Budget
+2024-10-20T18:09:46.300Z info: Received a POST request for /budgets/budget
+2024-10-20T18:09:46.305Z info: Received a request for /budget from janjaal
+2024-10-20T18:16:09.048Z info: Received a GET request for /budgets/budget?budgetId=6715476af0afc95bb749fd8c
+2024-10-20T18:16:09.051Z info: Received a request for /budget?budgetId=6715476af0afc95bb749fd8c from janjaal
+2024-10-20T18:16:09.057Z error: err is not defined
+2024-10-20T18:16:38.423Z info: Received a GET request for /budgets/budget?budgetId=6715476af0afc95bb749fd8c
+2024-10-20T18:17:25.994Z info: app listening on port 8000
+2024-10-20T18:17:26.446Z info: Received a GET request for /budgets/budget?budgetId=6715476af0afc95bb749fd8c
+2024-10-20T18:18:03.452Z info: app listening on port 8000
+2024-10-20T18:18:06.496Z info: Received a GET request for /budgets/budget?budgetId=6715476af0afc95bb749fd8c
+2024-10-20T18:18:06.510Z info: Received a request for /budget?budgetId=6715476af0afc95bb749fd8c from janjaal
+2024-10-20T18:20:29.561Z info: app listening on port 8000
+2024-10-20T18:20:38.678Z info: Received a GET request for /manage/budget?BudgetId=6715476af0afc95bb749fd8c
+2024-10-20T18:20:38.688Z info: Received a request for /budget?BudgetId=6715476af0afc95bb749fd8c from janjaal
+2024-10-20T18:30:59.453Z error: budget is not defined
+2024-10-20T18:30:59.454Z error: [object Object]
+2024-10-25T17:36:20.031Z info: app listening on port 8000
+2024-10-25T17:36:21.045Z info: Received a GET request for /manage/goal?GoalId=671bd5e0c8279758cdd4ddb5
+2024-10-25T17:36:21.050Z info: Received a request for /goal?GoalId=671bd5e0c8279758cdd4ddb5 from janjaal
+2024-10-25T17:39:55.406Z info: app listening on port 8000
+2024-10-25T17:39:56.136Z info: Received a GET request for /manage/goal?GoalId=671bd5e0c8279758cdd4ddb5
+2024-10-25T17:41:12.800Z info: app listening on port 8000
+2024-10-25T17:41:17.076Z info: Received a GET request for /manage/goal?GoalId=671bd5e0c8279758cdd4ddb5
+2024-10-25T17:41:17.088Z info: Received a request for /goal?GoalId=671bd5e0c8279758cdd4ddb5 from janjaal
+2024-10-25T17:42:27.227Z info: app listening on port 8000
+2024-10-25T17:42:29.379Z info: Received a GET request for /manage/goal?GoalId=671bd5e0c8279758cdd4ddb5
+2024-10-25T17:42:29.385Z info: Received a request for /goal?GoalId=671bd5e0c8279758cdd4ddb5 from janjaal

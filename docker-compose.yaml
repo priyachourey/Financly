@@ -1,0 +1,29 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    depends_on:
+      - mongodb
+    environment:
+      -  DATABASE_URL=mongodb://mongodb:27017
+      -  DATABASE_NAME=test
+      -  DATABASE_USER=admin
+      -  DATABASE_PASSWORD=root
+      -  DATABASE_AUTH_SOURCE=admin
+      -  PORT=8000
+      -  SECRET_KEY=JAI__MATA__DI
+
+  mongodb:
+    image: mongo:latest
+    ports: 
+      - "27017:27017"
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=admin
+      - MONGO_INITDB_ROOT_PASSWORD=root
+    volumes:
+      - dbdata:/data/db
+volumes:
+  dbdata:

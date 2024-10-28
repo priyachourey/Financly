@@ -3,15 +3,17 @@ const TransactionModel = require('../models/transaction.model');
 const GoalModel = require('../models/goals.model');
 const logger = require('../utils/logger');
 
+
 // only one budget should be created for the perticular category for the time being
 const Management = {
     CalculateBudget : async(username , BudgetId ) => {
         try{
-            const budget = await BudgetModel.findOne({ _id: BudgetId, username });
+           
+            let budget = await BudgetModel.findById( BudgetId);
             if(!budget){
                 throw new Error("no budget found");
             }
-
+            
             const transactions =  await TransactionModel.find({
                 username,
                 category: budget.category, 
@@ -37,11 +39,11 @@ const Management = {
         }
     },
    
-    calculateGoal : async(goalId) => {
+    calculateGoal : async(goalId , username) => {
         try{
-            const goal =  await GoalModel.findOne(goalId);
+            const goal =  await GoalModel.findById(goalId);
             if(!goal){
-                throw new Error("no goal fount from this category");
+                throw new Error("no goal found");
             }
             const transactions =  await TransactionModel.find({
                 username,
@@ -52,7 +54,7 @@ const Management = {
                 return transaction.type === 'income'? total + transaction.amount : total;
             },0);
 
-            const remainingamount = 0
+            let remainingamount = 0
             if(totalincome < goal.amount){
                 remainingamount  = goal.amount - totalincome;
             }

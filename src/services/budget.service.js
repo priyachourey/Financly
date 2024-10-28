@@ -17,9 +17,9 @@ const BudgetService = {
 
     getBudget: async (Budgetid) => {
         try {
-            const Budget = await BudgetModel.findOne(Budgetid);
+            const Budget = await BudgetModel.findById(Budgetid);
             return Budget;
-        } catch {
+        } catch(err) {
             logger.error(err);
             throw new Error("some error occured while fetching Budget");
         }

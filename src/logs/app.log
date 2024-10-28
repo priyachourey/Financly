@@ -41,3 +41,27 @@
 2024-10-19T14:46:22.465Z info: Received a request for /budget?BudgetId=6710e069329a6c85fb303174%20=%20janjaal from janjaal
 2024-10-19T14:46:22.471Z error: no budget found
 2024-10-19T14:46:22.471Z error: [object Object]
+2024-10-25T17:30:28.628Z info: app listening on port 8000
+2024-10-25T17:30:38.029Z info: Received a POST request for /auth/login
+2024-10-25T17:31:12.202Z info: Received a POST request for /goals/goal
+2024-10-25T17:31:12.209Z info: Received a request for /goal from janjaal
+2024-10-25T17:31:29.769Z info: Received a GET request for /goals/goal
+2024-10-25T17:31:29.771Z info: Received a request for /goal from janjaal
+2024-10-25T17:33:29.883Z info: Received a GET request for /manage/goal?GoalId=671bd5e0c8279758cdd4ddb5
+2024-10-25T17:34:07.553Z info: Received a GET request for /manage/goal?GoalId=671bd5e0c8279758cdd4ddb5
+2024-10-25T17:34:07.559Z info: Received a request for /goal?GoalId=671bd5e0c8279758cdd4ddb5 from janjaal
+2024-10-25T17:34:07.562Z error: Parameter "filter" to findOne() must be an object, got "671bd5e0c8279758cdd4ddb5" (type string)
+2024-10-25T17:34:07.563Z error: [object Object]
+2024-10-25T17:35:21.291Z info: Received a GET request for /manage/goal?GoalId=671bd5e0c8279758cdd4ddb5
+2024-10-25T17:35:21.296Z info: Received a request for /goal?GoalId=671bd5e0c8279758cdd4ddb5 from janjaal
+2024-10-25T17:35:21.299Z error: Parameter "filter" to findOne() must be an object, got "671bd5e0c8279758cdd4ddb5" (type string)
+2024-10-25T17:35:21.300Z error: [object Object]
+2024-10-25T17:35:22.347Z info: Received a GET request for /manage/goal?GoalId=671bd5e0c8279758cdd4ddb5
+2024-10-25T17:35:22.351Z info: Received a request for /goal?GoalId=671bd5e0c8279758cdd4ddb5 from janjaal
+2024-10-25T17:35:22.353Z error: Parameter "filter" to findOne() must be an object, got "671bd5e0c8279758cdd4ddb5" (type string)
+2024-10-25T17:35:22.353Z error: [object Object]
+2024-10-25T17:35:42.004Z info: Received a GET request for /manage/goal?GoalId=671bd5e0c8279758cdd4ddb5
+2024-10-25T17:35:42.013Z info: Received a request for /goal?GoalId=671bd5e0c8279758cdd4ddb5 from janjaal
+2024-10-25T17:35:42.023Z error: Parameter "filter" to findOne() must be an object, got "671bd5e0c8279758cdd4ddb5" (type string)
+2024-10-25T17:35:42.036Z error: [object Object]
+2024-10-27T14:02:50.079Z info: app listening on port 8000
