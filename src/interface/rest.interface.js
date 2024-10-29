@@ -10,7 +10,7 @@ const budgetController = require('../controllers/budget.controller');
 const goalController = require('../controllers/goal.controller');
 const categoryController = require('../controllers/category.controller');
 const managementController = require('../controllers/management.controller');
-const statusController = require('../controllers/status.controller')
+const statusController = require('../controllers/status.controller');
 const app = express();
 const port = config.SERVER_PORT;
 app.use(express.json());

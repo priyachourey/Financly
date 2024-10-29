@@ -4,7 +4,10 @@ const logger = require('../utils/logger');
 const StatService = {
   getStatus: async (username) => {
     try {
-      const transactions = await TransactionModel.find({ username: username });
+      const transactions =  await TransactionModel.find({
+        username,
+        type : 'expense'
+     });
       if (!transactions) {
         throw new Error("error retriving tramsaction");
       } else {
@@ -14,6 +17,7 @@ const StatService = {
               _id: "$category",
               totalamount: { $sum: "$amount" },
             },
+            
           },
         ]);
 

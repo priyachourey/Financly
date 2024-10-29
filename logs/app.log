@@ -526,3 +526,12 @@
 2024-10-25T17:42:27.227Z info: app listening on port 8000
 2024-10-25T17:42:29.379Z info: Received a GET request for /manage/goal?GoalId=671bd5e0c8279758cdd4ddb5
 2024-10-25T17:42:29.385Z info: Received a request for /goal?GoalId=671bd5e0c8279758cdd4ddb5 from janjaal
+2024-10-28T05:13:26.491Z info: app listening on port 8000
+2024-10-28T05:13:26.625Z info: Received a POST request for /auth/login
+2024-10-28T05:14:31.387Z info: app listening on port 8000
+2024-10-28T05:14:32.322Z info: Received a GET request for /status/state
+2024-10-28T05:14:32.337Z info: Received a request for /state from janjaal
+2024-10-28T05:14:32.361Z error: json is not defined
+2024-10-28T05:16:11.104Z info: app listening on port 8000
+2024-10-28T05:16:11.837Z info: Received a GET request for /status/state
+2024-10-28T05:16:11.845Z info: Received a request for /state from janjaal

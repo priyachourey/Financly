@@ -1,7 +1,7 @@
-const statusService = require("../services/status.service")
 const router = require("express").Router();
 const logger = require("../utils/logger");
 const jwtUtils = require("../utils/jwt-utils");
+const statusService = require("../services/status.service")
 
 router.use((req, res, next) => {
     try {
@@ -25,11 +25,17 @@ router.get('/state' , async(req,res)=>{
         const token = req.headers.authorization;
         const userinfo = jwtUtils.validateToken(token);
         const username = userinfo.data;
-        expenseStatus = await statusService.getStatus(username)
-        return json(expenseStatus)
+        expenseStatus = await statusService.getStatus(username);
+        // const formattedResponse = expenseStatus.map(item => ({
+        //   category: item.category,
+        //   amount: item.totalAmount
+        // }));
+        res.json(expenseStatus)
     }
    catch(err){
     logger.error(err);
     res.status(500).send({ message: err.message });
    }
 });
+
+module.exports = router;
