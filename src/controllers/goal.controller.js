@@ -53,4 +53,17 @@ router.get('/goal', async(req,res)=>{
     }
 })
 
+router.delete('/goal', async(req,res)=>{
+  try{
+      const goalid = req.query.goalid;
+      if(goalid){
+        await goalService.removeGoal(goalid);
+        res.status(201).send({ message: 'Goal removed successfully' });
+      }
+  }catch(err){
+    logger.error(err);
+    res.status(500).send({ message: err.message });
+  }
+})
+
 module.exports = router;

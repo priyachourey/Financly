@@ -535,3 +535,16 @@
 2024-10-28T05:16:11.104Z info: app listening on port 8000
 2024-10-28T05:16:11.837Z info: Received a GET request for /status/state
 2024-10-28T05:16:11.845Z info: Received a request for /state from janjaal
+2024-11-28T13:57:57.828Z info: app listening on port 8000
+2024-11-28T13:58:43.534Z info: app listening on port 8000
+2024-11-28T13:58:44.298Z info: Received a POST request for /auth/login
+2024-11-28T14:01:52.665Z info: app listening on port 8000
+2024-11-28T14:01:52.919Z info: Received a POST request for /manage/goal?GoalId=671bd5e0c8279758cdd4ddb5
+2024-11-28T14:02:28.463Z info: app listening on port 8000
+2024-11-28T14:02:28.948Z info: Received a POST request for /manage/goal?GoalId=671bd5e0c8279758cdd4ddb5
+2024-11-28T14:02:28.951Z info: Received a request for /goal?GoalId=671bd5e0c8279758cdd4ddb5 from janjaal
+2024-11-28T14:02:48.047Z info: Received a GET request for /manage/goal?GoalId=671bd5e0c8279758cdd4ddb5
+2024-11-28T14:02:48.050Z info: Received a request for /goal?GoalId=671bd5e0c8279758cdd4ddb5 from janjaal
+2024-11-28T14:05:07.397Z info: app listening on port 8000
+2024-11-28T14:05:07.974Z info: Received a GET request for /manage/goal?GoalId=671bd5e0c8279758cdd4ddb5
+2024-11-28T14:05:07.979Z info: Received a request for /goal?GoalId=671bd5e0c8279758cdd4ddb5 from janjaal

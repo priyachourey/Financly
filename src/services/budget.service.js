@@ -30,9 +30,18 @@ const BudgetService = {
         try {
             const BudgetList = await BudgetModel.find({ username: username });
             return BudgetList;
-        } catch {
+        } catch (err) {
             logger.error(err);
             throw new Error("some error occured while fetching Budget");
+        }
+    },
+
+    removeBudget : async(Budgetid)=>{
+        try{
+            await BudgetModel.findOneAndDelete(Budgetid);
+        }catch(err){
+            logger.error(err);
+            throw new Error("some error occured while deleting Budget");
         }
     }
 

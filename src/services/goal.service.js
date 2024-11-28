@@ -34,6 +34,15 @@ const GoalService = {
             logger.error(err);
             throw new Error("some error occured while fetching Goal");
         }
+    },
+
+    removeGoal : async (GoalId)=>{
+        try{
+             await GoalModel.findOneAndDelete(GoalId);
+        }catch{
+            logger.error(err);
+            throw new Error("some error occured while deleting Goal");
+        }
     }
 
 

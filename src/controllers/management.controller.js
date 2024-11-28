@@ -27,6 +27,7 @@ router.get("/budget", async (req, res) => {
     const username = userinfo.data;
     const budgetdata = await manageService.CalculateBudget(username, budgetId);
     res.json({
+      status : budgetdata.status,
       remainingamount: budgetdata.remainingamount,
       totalexpense: budgetdata.totalexpense,
       remainingBudget: budgetdata.remainingBugetpercent,
@@ -45,7 +46,7 @@ router.get("/goal", async (req, res) => {
     const username = userinfo.data;
     const goaldata = await manageService.calculateGoal(goalId , username);
     res.json({
-      totalincome: goaldata.totalincome,
+      savings: goaldata.savings,
       remainingamount: goaldata.remainingamount,
       goalprogress: goaldata.progress,
     });

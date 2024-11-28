@@ -13,11 +13,21 @@ const StatService = {
       } else {
         const aggregateAmount = await TransactionModel.aggregate([
           {
-            $group: {
-              _id: "$category",
-              totalamount: { $sum: "$amount" },
+            $lookup: {
+              from: "categorys", // Collection name for categories
+              localField: "category", // Field in TransactionModel referencing categories
+              foreignField: "_id", // Field in CategoryModel
+              as: "category_info", // Output array containing category details
             },
-            
+          },
+          {
+            $unwind: "$category_info", // Flatten category_info array to access fields
+          },
+          {
+            $group: {
+              _id: "$category_info.name", // Group by category name
+              totalamount: { $sum: "$amount" }, // Sum the amount field
+            },
           },
         ]);
 

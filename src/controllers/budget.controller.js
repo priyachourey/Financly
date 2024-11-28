@@ -49,4 +49,17 @@ router.get('/budget', async (req, res) => {
     }
 })
 
+router.delete('/budget', async(req, res)=>{
+    try{
+      const budgetid = req.query.budgetId;
+      if (budgetid){
+        await budgetService.removeBudget(budgetid)
+        res.status(201).send({message : "budget deleted successfully" })
+      }
+    }catch(err){
+      logger.error(err);
+      res.status(500).send({message : err.message})
+    }
+})
+
 module.exports = router;
