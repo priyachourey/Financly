@@ -78,6 +78,8 @@ const Management = {
 
       if (progress <= 0) {
         progress = 0;
+      }else if(progress > 100){
+        progress = 100;
       }
 
       let remainingamount = 0;

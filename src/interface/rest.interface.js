@@ -11,6 +11,7 @@ const goalController = require('../controllers/goal.controller');
 const categoryController = require('../controllers/category.controller');
 const managementController = require('../controllers/management.controller');
 const statusController = require('../controllers/status.controller');
+const accountController = require('../controllers/account.controller')
 const app = express();
 const port = config.SERVER_PORT;
 app.use(express.json());
@@ -35,6 +36,7 @@ app.use('/goals', goalController);
 app.use('/categories', categoryController);
 app.use('/manage', managementController);
 app.use('/status', statusController);
+app.use('/accounts', accountController);
 const startRestServer = ()=>{
   app.listen(port, () => {
     logger.info(`app listening on port ${port}`);

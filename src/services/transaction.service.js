@@ -33,6 +33,16 @@ const transactionService = {
             logger.error(err);
             throw new Error("some error occured while fetching transaction");
         }
+    },
+
+    getAccountTransactionList : async(accountId)=>{
+        try{
+            const AccountTransaction = await TransactionModel.find({account :accountId});
+            return AccountTransaction || [];
+        }catch(err){
+            logger.error(err);
+            throw new Error("some error occured while fetching transaction");                               
+        }
     }
 
 

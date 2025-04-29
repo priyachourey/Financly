@@ -548,3 +548,373 @@
 2024-11-28T14:05:07.397Z info: app listening on port 8000
 2024-11-28T14:05:07.974Z info: Received a GET request for /manage/goal?GoalId=671bd5e0c8279758cdd4ddb5
 2024-11-28T14:05:07.979Z info: Received a request for /goal?GoalId=671bd5e0c8279758cdd4ddb5 from janjaal
+2025-03-21T14:36:39.766Z info: app listening on port 8000
+2025-03-21T14:36:52.681Z info: Received a POST request for /accounts/account
+2025-03-21T14:36:52.692Z info: Received a request for /account from janjaal
+2025-03-21T14:37:43.118Z error: awaitAccount is not defined
+2025-03-21T14:38:29.585Z error: some error occured while creating shared account
+2025-03-21T14:41:04.544Z info: app listening on port 8000
+2025-03-21T14:41:07.193Z info: Received a POST request for /accounts/account
+2025-03-21T14:41:07.196Z info: Received a request for /account from janjaal
+2025-03-21T14:41:54.828Z info: app listening on port 8000
+2025-03-21T14:41:55.276Z info: Received a POST request for /accounts/account
+2025-03-21T14:41:55.281Z info: Received a request for /account from janjaal
+2025-03-21T14:42:14.118Z info: app listening on port 8000
+2025-03-21T14:42:25.581Z info: app listening on port 8000
+2025-03-21T14:42:26.137Z info: Received a POST request for /accounts/account
+2025-03-21T14:42:26.143Z info: Received a request for /account from janjaal
+2025-03-21T14:42:27.244Z info: Received a POST request for /accounts/account
+2025-03-21T14:42:27.247Z info: Received a request for /account from janjaal
+2025-03-21T14:42:28.159Z info: Received a POST request for /accounts/account
+2025-03-21T14:42:28.161Z info: Received a request for /account from janjaal
+2025-03-21T14:42:29.025Z info: Received a POST request for /accounts/account
+2025-03-21T14:42:29.028Z info: Received a request for /account from janjaal
+2025-03-21T14:42:31.848Z info: Received a POST request for /accounts/account
+2025-03-21T14:42:31.853Z info: Received a request for /account from janjaal
+2025-03-21T14:42:32.981Z info: Received a POST request for /accounts/account
+2025-03-21T14:42:32.985Z info: Received a request for /account from janjaal
+2025-03-21T14:42:34.099Z info: Received a POST request for /accounts/account
+2025-03-21T14:42:34.103Z info: Received a request for /account from janjaal
+2025-04-01T16:48:30.718Z info: app listening on port 8000
+2025-04-01T16:49:22.374Z info: app listening on port 8000
+2025-04-01T16:49:36.168Z info: Received a POST request for /auth/login
+2025-04-01T16:50:26.852Z info: Received a GET request for /transactions/transaction
+2025-04-01T16:51:52.345Z info: app listening on port 8000
+2025-04-01T16:52:02.063Z info: Received a GET request for /transactions/transaction
+2025-04-01T16:55:47.855Z info: app listening on port 8000
+2025-04-01T16:57:02.157Z info: app listening on port 8000
+2025-04-01T16:59:29.714Z info: app listening on port 8000
+2025-04-01T17:00:17.924Z info: app listening on port 8000
+2025-04-01T17:01:03.240Z info: app listening on port 8000
+2025-04-01T17:02:21.718Z info: app listening on port 8000
+2025-04-01T17:02:25.351Z info: Received a GET request for /transactions/transaction
+2025-04-01T17:02:25.357Z info: Received a request for /transaction from janjaal
+2025-04-01T17:02:47.814Z error: Cast to ObjectId failed for value "janjaal" (type string) at path "username" for model "transaction"
+2025-04-01T17:02:49.430Z error: some error occured while fetching transaction
+2025-04-01T17:05:45.188Z info: app listening on port 8000
+2025-04-01T17:05:49.649Z info: Received a GET request for /transactions/transaction
+2025-04-01T17:05:49.659Z info: Received a request for /transaction from janjaal
+2025-04-01T17:28:47.676Z info: app listening on port 8000
+2025-04-01T17:28:48.271Z info: Received a POST request for /accounts/account
+2025-04-01T17:29:00.686Z info: Received a POST request for /auth/login
+2025-04-01T17:29:21.868Z info: Received a POST request for /accounts/account
+2025-04-01T17:29:21.871Z info: Received a request for /account from janjaal
+2025-04-01T17:30:28.155Z info: Received a POST request for /transactions/transaction
+2025-04-01T17:30:28.158Z info: Received a request for /transaction from janjaal
+2025-04-01T17:35:19.131Z info: app listening on port 8000
+2025-04-01T17:35:19.691Z info: Received a POST request for /accounts/account
+2025-04-01T17:35:19.704Z info: Received a request for /account from janjaal
+2025-04-01T17:47:27.125Z info: app listening on port 8000
+2025-04-01T17:47:28.711Z info: Received a POST request for /accounts/account
+2025-04-01T17:47:28.719Z info: Received a request for /account from janjaal
+2025-04-01T17:47:28.750Z error: account validation failed: owner: Cast to ObjectId failed for value "janjaal" (type string) at path "owner" because of "BSONError", members.0.user: Cast to ObjectId failed for value "janjaal" (type string) at path "user" because of "BSONError"
+2025-04-01T17:47:28.751Z error: some error occured while creating shared account
+2025-04-01T17:47:28.830Z info: Received a POST request for /accounts/account
+2025-04-01T17:47:28.833Z info: Received a request for /account from janjaal
+2025-04-01T17:47:28.845Z error: account validation failed: owner: Cast to ObjectId failed for value "janjaal" (type string) at path "owner" because of "BSONError", members.0.user: Cast to ObjectId failed for value "janjaal" (type string) at path "user" because of "BSONError"
+2025-04-01T17:47:28.846Z error: some error occured while creating shared account
+2025-04-01T17:47:29.056Z info: Received a POST request for /accounts/account
+2025-04-01T17:47:29.059Z info: Received a request for /account from janjaal
+2025-04-01T17:47:29.071Z error: account validation failed: owner: Cast to ObjectId failed for value "janjaal" (type string) at path "owner" because of "BSONError", members.0.user: Cast to ObjectId failed for value "janjaal" (type string) at path "user" because of "BSONError"
+2025-04-01T17:47:29.072Z error: some error occured while creating shared account
+2025-04-01T17:47:31.150Z info: Received a POST request for /accounts/account
+2025-04-01T17:47:31.152Z info: Received a request for /account from janjaal
+2025-04-01T17:47:31.160Z error: account validation failed: owner: Cast to ObjectId failed for value "janjaal" (type string) at path "owner" because of "BSONError", members.0.user: Cast to ObjectId failed for value "janjaal" (type string) at path "user" because of "BSONError"
+2025-04-01T17:47:31.161Z error: some error occured while creating shared account
+2025-04-01T17:48:20.622Z info: app listening on port 8000
+2025-04-01T17:48:21.084Z info: Received a POST request for /accounts/account
+2025-04-01T17:48:21.090Z info: Received a request for /account from janjaal
+2025-04-01T17:50:09.398Z info: app listening on port 8000
+2025-04-01T17:50:13.367Z info: Received a POST request for /accounts/account
+2025-04-01T17:50:13.371Z info: Received a request for /account from janjaal
+2025-04-01T17:57:38.381Z info: app listening on port 8000
+2025-04-01T17:57:39.381Z info: Received a POST request for /accounts/account
+2025-04-01T17:57:39.388Z info: Received a request for /account from janjaal
+2025-04-01T18:05:23.574Z info: app listening on port 8000
+2025-04-01T18:05:23.973Z info: Received a POST request for /accounts/account
+2025-04-01T18:05:23.983Z info: Received a request for /account from janjaal
+2025-04-01T18:23:31.214Z info: app listening on port 8000
+2025-04-01T18:23:31.308Z info: Received a POST request for /accounts/account
+2025-04-01T18:23:31.322Z info: Received a request for /account from janjaal
+2025-04-01T18:26:55.246Z info: app listening on port 8000
+2025-04-01T18:26:56.265Z info: Received a POST request for /accounts/account
+2025-04-01T18:26:56.276Z info: Received a request for /account from janjaal
+2025-04-01T18:29:56.741Z info: app listening on port 8000
+2025-04-01T18:30:18.908Z info: app listening on port 8000
+2025-04-01T18:30:19.165Z info: Received a POST request for /accounts/account
+2025-04-01T18:30:33.269Z info: Received a POST request for /auth/login
+2025-04-01T18:30:47.733Z info: Received a POST request for /accounts/account
+2025-04-01T18:31:02.911Z info: app listening on port 8000
+2025-04-01T18:31:03.991Z info: Received a POST request for /accounts/account
+2025-04-01T18:31:03.998Z info: Received a request for /account from janjaal
+2025-04-01T18:44:01.535Z info: app listening on port 8000
+2025-04-01T18:44:02.290Z info: Received a POST request for /accounts/account
+2025-04-01T18:45:20.335Z info: app listening on port 8000
+2025-04-01T18:45:24.880Z info: Received a POST request for /accounts/account
+2025-04-01T18:45:24.885Z info: Received a request for /account from janjaal
+2025-04-01T19:27:30.395Z info: app listening on port 8000
+2025-04-01T19:28:31.161Z info: app listening on port 8000
+2025-04-01T19:28:31.853Z info: Received a POST request for /auth/login
+2025-04-01T19:28:58.712Z info: app listening on port 8000
+2025-04-01T19:28:59.415Z info: Received a GET request for /accounts/account
+2025-04-01T19:29:54.840Z info: Received a GET request for /accounts/account
+2025-04-01T19:29:55.702Z info: Received a GET request for /accounts/account
+2025-04-01T19:30:14.218Z info: Received a POST request for /auth/login
+2025-04-01T19:30:15.553Z info: Received a POST request for /auth/login
+2025-04-01T19:30:44.066Z info: app listening on port 8000
+2025-04-01T19:30:44.486Z info: Received a GET request for /accounts/account
+2025-04-01T19:30:44.493Z info: Received a request for /account from janjaal
+2025-04-01T19:38:18.420Z info: app listening on port 8000
+2025-04-01T19:38:18.833Z info: Received a GET request for /accounts/account
+2025-04-01T19:38:18.844Z info: Received a request for /account from janjaal
+2025-04-01T19:38:56.911Z info: app listening on port 8000
+2025-04-01T19:39:01.459Z info: Received a GET request for /accounts/account
+2025-04-01T19:39:01.467Z info: Received a request for /account from janjaal
+2025-04-01T19:40:39.167Z info: app listening on port 8000
+2025-04-01T19:40:40.098Z info: Received a GET request for /accounts/account
+2025-04-01T19:40:40.104Z info: Received a request for /account from janjaal
+2025-04-01T19:43:35.616Z info: app listening on port 8000
+2025-04-01T19:43:35.996Z info: Received a GET request for /accounts/account
+2025-04-01T19:43:36.010Z info: Received a request for /account from janjaal
+2025-04-01T19:44:57.646Z info: app listening on port 8000
+2025-04-01T19:44:59.092Z info: Received a GET request for /accounts/account
+2025-04-01T19:44:59.099Z info: Received a request for /account from janjaal
+2025-04-01T19:45:23.333Z info: app listening on port 8000
+2025-04-01T19:45:23.776Z info: Received a GET request for /accounts/account
+2025-04-01T19:45:23.782Z info: Received a request for /account from janjaal
+2025-04-02T06:10:50.538Z info: app listening on port 8000
+2025-04-02T06:10:51.537Z info: Received a GET request for /accounts/account
+2025-04-02T06:11:23.913Z info: app listening on port 8000
+2025-04-02T06:11:24.879Z info: Received a POST request for /auth/login
+2025-04-02T06:12:06.754Z info: Received a GET request for /accounts/account
+2025-04-02T06:12:06.759Z info: Received a request for /account from janjaal
+2025-04-02T06:18:05.069Z info: app listening on port 8000
+2025-04-02T06:18:06.141Z info: Received a GET request for /accounts/account
+2025-04-02T06:18:06.152Z info: Received a request for /account from janjaal
+2025-04-02T06:20:22.251Z info: app listening on port 8000
+2025-04-02T06:20:22.477Z info: Received a GET request for /accounts/account
+2025-04-02T06:20:22.483Z info: Received a request for /account from janjaal
+2025-04-02T06:22:01.702Z info: app listening on port 8000
+2025-04-02T06:22:03.759Z info: Received a GET request for /accounts/account
+2025-04-02T06:22:03.763Z info: Received a request for /account from janjaal
+2025-04-02T06:25:42.617Z info: app listening on port 8000
+2025-04-02T06:25:43.141Z info: Received a GET request for /accounts/account
+2025-04-02T06:25:43.153Z info: Received a request for /account from janjaal
+2025-04-02T06:27:54.322Z info: app listening on port 8000
+2025-04-02T06:27:54.890Z info: Received a GET request for /accounts/account
+2025-04-02T06:27:54.896Z info: Received a request for /account from janjaal
+2025-04-02T06:45:05.813Z info: app listening on port 8000
+2025-04-02T06:45:06.259Z info: Received a POST request for /accounts/account
+2025-04-02T06:45:23.302Z info: Received a POST request for /accounts/account
+2025-04-02T06:45:23.305Z info: Received a request for /account from janjaal
+2025-04-02T07:50:43.933Z info: app listening on port 8000
+2025-04-02T07:50:44.298Z info: Received a GET request for /accounts/account
+2025-04-02T07:50:44.316Z info: Received a request for /account from janjaal
+2025-04-02T08:07:48.368Z info: app listening on port 8000
+2025-04-02T08:07:48.727Z info: Received a GET request for /accounts/account
+2025-04-02T08:11:26.995Z info: app listening on port 8000
+2025-04-02T08:11:27.702Z info: Received a GET request for /accounts/account
+2025-04-02T08:11:27.714Z info: Received a request for /account from janjaal
+2025-04-02T08:12:32.376Z info: app listening on port 8000
+2025-04-02T08:12:33.764Z info: Received a GET request for /accounts/account
+2025-04-02T08:12:33.770Z info: Received a request for /account from janjaal
+2025-04-02T08:19:31.220Z info: app listening on port 8000
+2025-04-02T08:19:32.042Z info: Received a GET request for /accounts/account
+2025-04-02T08:19:32.053Z info: Received a request for /account from janjaal
+2025-04-02T08:22:05.382Z info: app listening on port 8000
+2025-04-02T08:22:06.658Z info: Received a GET request for /accounts/account
+2025-04-02T08:22:06.671Z info: Received a request for /account from janjaal
+2025-04-02T08:24:03.406Z info: app listening on port 8000
+2025-04-02T08:24:04.333Z info: Received a GET request for /accounts/account
+2025-04-02T08:24:04.345Z info: Received a request for /account from janjaal
+2025-04-02T08:27:53.788Z info: app listening on port 8000
+2025-04-02T08:27:54.510Z info: Received a GET request for /accounts/account
+2025-04-02T08:27:54.516Z info: Received a request for /account from janjaal
+2025-04-02T08:30:12.478Z info: app listening on port 8000
+2025-04-02T08:30:13.422Z info: Received a GET request for /accounts/account
+2025-04-02T08:30:13.426Z info: Received a request for /account from janjaal
+2025-04-02T08:34:21.421Z info: app listening on port 8000
+2025-04-02T08:34:22.609Z info: Received a GET request for /accounts/account
+2025-04-02T08:34:22.624Z info: Received a request for /account from janjaal
+2025-04-02T15:01:04.316Z info: app listening on port 8000
+2025-04-02T15:01:05.391Z info: Received a GET request for /accounts/account
+2025-04-02T15:01:16.556Z info: Received a POST request for /auth/login
+2025-04-02T15:01:33.952Z info: Received a GET request for /accounts/account
+2025-04-02T15:01:33.955Z info: Received a request for /account from janjaal
+2025-04-02T15:02:59.019Z info: app listening on port 8000
+2025-04-02T15:03:03.084Z info: Received a GET request for /accounts/account
+2025-04-02T15:03:03.090Z info: Received a request for /account from janjaal
+2025-04-02T15:10:08.505Z info: app listening on port 8000
+2025-04-02T15:10:11.049Z info: Received a GET request for /accounts/account
+2025-04-02T15:10:11.063Z info: Received a request for /account from janjaal
+2025-04-02T15:11:03.267Z info: app listening on port 8000
+2025-04-02T15:11:04.150Z info: Received a GET request for /accounts/account
+2025-04-02T15:11:04.155Z info: Received a request for /account from janjaal
+2025-04-02T15:11:54.560Z info: app listening on port 8000
+2025-04-02T15:11:55.571Z info: Received a GET request for /accounts/account
+2025-04-02T15:11:55.578Z info: Received a request for /account from janjaal
+2025-04-02T15:24:53.841Z info: app listening on port 8000
+2025-04-02T15:24:56.225Z info: Received a GET request for /accounts/account
+2025-04-02T15:26:36.471Z info: app listening on port 8000
+2025-04-02T15:26:36.979Z info: Received a GET request for /accounts/account
+2025-04-02T15:26:36.990Z info: Received a request for /account from janjaal
+2025-04-02T15:34:57.137Z info: app listening on port 8000
+2025-04-02T15:34:57.831Z info: Received a GET request for /accounts/account
+2025-04-02T15:34:57.843Z info: Received a request for /account from janjaal
+2025-04-02T15:36:11.809Z info: app listening on port 8000
+2025-04-02T15:36:15.626Z info: Received a GET request for /accounts/account
+2025-04-02T15:36:15.632Z info: Received a request for /account from janjaal
+2025-04-02T15:39:41.894Z info: app listening on port 8000
+2025-04-02T15:39:47.482Z info: Received a GET request for /accounts/account
+2025-04-02T15:39:47.486Z info: Received a request for /account from janjaal
+2025-04-02T15:45:44.044Z info: app listening on port 8000
+2025-04-02T15:45:50.124Z info: Received a GET request for /accounts/account
+2025-04-02T15:45:50.136Z info: Received a request for /account from janjaal
+2025-04-02T15:47:46.282Z info: app listening on port 8000
+2025-04-02T15:47:46.923Z info: Received a GET request for /accounts/account
+2025-04-02T15:47:46.930Z info: Received a request for /account from janjaal
+2025-04-02T15:55:38.852Z info: app listening on port 8000
+2025-04-02T15:55:39.937Z info: Received a GET request for /accounts/account
+2025-04-02T15:55:39.948Z info: Received a request for /account from janjaal
+2025-04-02T15:58:51.889Z info: app listening on port 8000
+2025-04-02T15:58:52.998Z info: Received a GET request for /accounts/account
+2025-04-02T15:58:53.010Z info: Received a request for /account from janjaal
+2025-04-02T16:10:03.407Z info: app listening on port 8000
+2025-04-02T16:10:04.282Z info: Received a GET request for /accounts/account
+2025-04-02T16:10:09.448Z info: Received a POST request for /auth/login
+2025-04-02T16:10:21.507Z info: Received a GET request for /accounts/account
+2025-04-02T16:10:21.511Z info: Received a request for /account from janjaal
+2025-04-02T16:16:35.459Z info: app listening on port 8000
+2025-04-02T16:16:36.259Z info: Received a GET request for /accounts/account
+2025-04-02T16:16:36.268Z info: Received a request for /account from janjaal
+2025-04-02T16:19:14.489Z info: app listening on port 8000
+2025-04-02T16:19:15.340Z info: Received a GET request for /accounts/account
+2025-04-02T16:19:15.344Z info: Received a request for /account from janjaal
+2025-04-02T16:21:35.888Z info: app listening on port 8000
+2025-04-02T16:21:38.758Z info: Received a GET request for /accounts/account
+2025-04-02T16:21:38.762Z info: Received a request for /account from janjaal
+2025-04-02T16:26:43.349Z info: app listening on port 8000
+2025-04-02T16:26:48.900Z info: Received a GET request for /accounts/account
+2025-04-02T16:26:48.903Z info: Received a request for /account from janjaal
+2025-04-02T16:34:39.629Z info: app listening on port 8000
+2025-04-02T16:34:40.531Z info: Received a GET request for /accounts/account
+2025-04-02T16:34:40.542Z info: Received a request for /account from janjaal
+2025-04-02T16:38:05.457Z info: app listening on port 8000
+2025-04-02T16:38:08.729Z info: Received a GET request for /accounts/account
+2025-04-02T16:38:08.738Z info: Received a request for /account from janjaal
+2025-04-03T18:20:41.812Z info: app listening on port 8000
+2025-04-03T18:20:51.377Z info: Received a POST request for /auth/register
+2025-04-03T18:20:51.506Z error: user validation failed: email: Path `email` is required.
+2025-04-03T18:22:09.365Z info: app listening on port 8000
+2025-04-03T18:22:09.946Z info: Received a POST request for /auth/register
+2025-04-03T18:22:21.190Z info: Received a POST request for /auth/login
+2025-04-03T18:22:48.836Z info: Received a POST request for /accounts/account
+2025-04-03T18:22:57.710Z info: Received a POST request for /accounts/account
+2025-04-03T18:22:57.712Z info: Received a request for /account from janjaal
+2025-04-03T18:22:57.730Z error: account validation failed: members.0: Cast to [ObjectId] failed for value "[ { user: new ObjectId('67eed1d1d8edddee6dd0720f') } ]" (type string) at path "members.0" because of "CastError"
+2025-04-03T18:22:57.731Z error: Some error occurred while creating shared account
+2025-04-03T18:24:24.975Z info: app listening on port 8000
+2025-04-03T18:24:26.562Z info: Received a GET request for /accounts/account
+2025-04-03T18:24:46.592Z info: Received a POST request for /accounts/account
+2025-04-03T18:24:46.595Z info: Received a request for /account from janjaal
+2025-04-03T18:26:27.703Z info: app listening on port 8000
+2025-04-03T18:26:35.753Z info: Received a POST request for /accounts/account
+2025-04-03T18:26:35.798Z info: Received a request for /account from janjaal
+2025-04-03T18:36:13.850Z info: app listening on port 8000
+2025-04-03T18:36:15.081Z info: Received a POST request for /accounts/account
+2025-04-03T18:36:15.091Z info: Received a request for /account from janjaal
+2025-04-03T18:37:38.129Z info: app listening on port 8000
+2025-04-03T18:37:39.547Z info: Received a POST request for /accounts/account
+2025-04-03T18:37:39.554Z info: Received a request for /account from janjaal
+2025-04-03T18:38:59.626Z info: app listening on port 8000
+2025-04-03T18:39:01.127Z info: Received a GET request for /accounts/account
+2025-04-03T18:39:01.133Z info: Received a request for /account from janjaal
+2025-04-03T18:40:27.230Z info: app listening on port 8000
+2025-04-03T18:40:28.074Z info: Received a GET request for /accounts/account
+2025-04-03T18:40:28.083Z info: Received a request for /account from janjaal
+2025-04-06T14:28:27.196Z info: app listening on port 8000
+2025-04-06T14:28:28.675Z info: Received a GET request for /accounts/account
+2025-04-06T14:28:28.687Z info: Received a request for /account from janjaal
+2025-04-06T14:37:35.153Z info: app listening on port 8000
+2025-04-06T14:37:37.236Z info: Received a GET request for /accounts/account
+2025-04-06T14:37:37.249Z info: Received a request for /account from janjaal
+2025-04-06T14:39:27.012Z info: app listening on port 8000
+2025-04-06T14:39:29.824Z info: Received a GET request for /accounts/account
+2025-04-06T14:39:29.837Z info: Received a request for /account from janjaal
+2025-04-06T14:40:19.508Z info: app listening on port 8000
+2025-04-06T14:40:20.672Z info: Received a GET request for /accounts/account
+2025-04-06T14:40:20.678Z info: Received a request for /account from janjaal
+2025-04-10T12:28:49.813Z info: app listening on port 8000
+2025-04-10T12:29:02.426Z info: Received a POST request for /auth/register
+2025-04-10T12:29:02.571Z error: E11000 duplicate key error collection: financly.users index: contactNumber_1 dup key: { contactNumber: null }
+2025-04-10T12:29:06.074Z info: Received a POST request for /auth/register
+2025-04-10T12:29:06.096Z error: E11000 duplicate key error collection: financly.users index: contactNumber_1 dup key: { contactNumber: null }
+2025-04-10T12:29:58.589Z info: Received a POST request for /auth/register
+2025-04-10T12:29:58.609Z error: E11000 duplicate key error collection: financly.users index: contactNumber_1 dup key: { contactNumber: null }
+2025-04-10T12:29:59.532Z info: Received a POST request for /auth/register
+2025-04-10T12:29:59.562Z error: E11000 duplicate key error collection: financly.users index: contactNumber_1 dup key: { contactNumber: null }
+2025-04-10T12:40:36.685Z info: app listening on port 8000
+2025-04-10T12:40:37.465Z info: Received a POST request for /auth/register
+2025-04-10T12:40:37.505Z error: E11000 duplicate key error collection: financly.users index: contactNumber_1 dup key: { contactNumber: null }
+2025-04-10T12:40:38.678Z info: Received a POST request for /auth/register
+2025-04-10T12:40:38.699Z error: E11000 duplicate key error collection: financly.users index: contactNumber_1 dup key: { contactNumber: null }
+2025-04-10T12:40:39.912Z info: Received a POST request for /auth/register
+2025-04-10T12:40:39.928Z error: E11000 duplicate key error collection: financly.users index: contactNumber_1 dup key: { contactNumber: null }
+2025-04-10T12:41:24.386Z info: app listening on port 8000
+2025-04-10T12:41:25.543Z info: Received a POST request for /auth/register
+2025-04-10T12:41:25.590Z error: E11000 duplicate key error collection: financly.users index: contactNumber_1 dup key: { contactNumber: null }
+2025-04-10T12:41:26.546Z info: Received a POST request for /auth/register
+2025-04-10T12:41:26.572Z error: E11000 duplicate key error collection: financly.users index: contactNumber_1 dup key: { contactNumber: null }
+2025-04-10T12:44:36.037Z info: app listening on port 8000
+2025-04-10T12:44:36.160Z info: Received a POST request for /auth/register
+2025-04-10T12:44:36.405Z error: E11000 duplicate key error collection: financly.users index: contactNumber_1 dup key: { contactNumber: null }
+2025-04-10T12:56:02.282Z info: app listening on port 8000
+2025-04-10T12:56:02.389Z info: Received a POST request for /auth/register
+2025-04-10T12:56:02.629Z error: E11000 duplicate key error collection: financly.users index: contactNumber_1 dup key: { contactNumber: null }
+2025-04-10T12:56:07.587Z info: Received a POST request for /auth/register
+2025-04-10T12:56:07.612Z error: E11000 duplicate key error collection: financly.users index: contactNumber_1 dup key: { contactNumber: null }
+2025-04-11T11:22:07.571Z info: app listening on port 8000
+2025-04-11T11:22:08.170Z info: Received a POST request for /auth/register
+2025-04-11T11:22:08.274Z error: E11000 duplicate key error collection: financly.users index: contactNumber_1 dup key: { contactNumber: null }
+2025-04-11T11:23:17.853Z info: app listening on port 8000
+2025-04-11T11:23:18.690Z info: Received a POST request for /auth/login
+2025-04-11T11:23:38.891Z info: Received a GET request for /accounts/searchmember?query=nikki
+2025-04-11T11:23:38.897Z info: Received a request for /searchmember?query=nikki from janjaal
+2025-04-11T11:23:58.394Z info: Received a GET request for /accounts/searchmember?query=janjaal
+2025-04-11T11:23:58.398Z info: Received a request for /searchmember?query=janjaal from janjaal
+2025-04-11T11:24:00.141Z info: Received a GET request for /accounts/searchmember?query=janjaal
+2025-04-11T11:24:00.146Z info: Received a request for /searchmember?query=janjaal from janjaal
+2025-04-11T11:24:01.123Z info: Received a GET request for /accounts/searchmember?query=janjaal
+2025-04-11T11:24:01.131Z info: Received a request for /searchmember?query=janjaal from janjaal
+2025-04-11T11:24:01.942Z info: Received a GET request for /accounts/searchmember?query=janjaal
+2025-04-11T11:24:01.947Z info: Received a request for /searchmember?query=janjaal from janjaal
+2025-04-11T11:24:02.970Z info: Received a GET request for /accounts/searchmember?query=janjaal
+2025-04-11T11:24:02.973Z info: Received a request for /searchmember?query=janjaal from janjaal
+2025-04-11T11:26:54.632Z info: app listening on port 8000
+2025-04-11T11:26:54.840Z info: Received a POST request for /auth/register
+2025-04-11T11:26:54.901Z error: E11000 duplicate key error collection: financly.users index: contactNumber_1 dup key: { contactNumber: null }
+2025-04-11T11:27:00.301Z info: Received a POST request for /auth/register
+2025-04-11T11:27:00.325Z error: E11000 duplicate key error collection: financly.users index: contactNumber_1 dup key: { contactNumber: null }
+2025-04-11T11:27:06.529Z info: Received a POST request for /auth/register
+2025-04-11T11:27:06.544Z error: E11000 duplicate key error collection: financly.users index: contactNumber_1 dup key: { contactNumber: null }
+2025-04-11T11:27:07.409Z info: Received a POST request for /auth/register
+2025-04-11T11:27:07.427Z error: E11000 duplicate key error collection: financly.users index: contactNumber_1 dup key: { contactNumber: null }
+2025-04-11T11:27:08.160Z info: Received a POST request for /auth/register
+2025-04-11T11:27:08.179Z error: E11000 duplicate key error collection: financly.users index: contactNumber_1 dup key: { contactNumber: null }
+2025-04-11T11:27:08.694Z info: Received a POST request for /auth/register
+2025-04-11T11:27:08.713Z error: E11000 duplicate key error collection: financly.users index: contactNumber_1 dup key: { contactNumber: null }
+2025-04-11T11:30:45.456Z info: Received a POST request for /auth/register
+2025-04-11T11:30:57.904Z info: Received a GET request for /accounts/searchmember?query=nikki
+2025-04-11T11:30:57.940Z info: Received a request for /searchmember?query=nikki from janjaal
+2025-04-11T11:30:58.799Z info: Received a GET request for /accounts/searchmember?query=nikki
+2025-04-11T11:30:58.806Z info: Received a request for /searchmember?query=nikki from janjaal
+2025-04-11T11:31:59.257Z info: app listening on port 8000
+2025-04-11T11:32:00.504Z info: Received a GET request for /accounts/searchmember?query=nikki
+2025-04-11T11:32:48.573Z info: app listening on port 8000
+2025-04-11T11:32:49.635Z info: Received a GET request for /accounts/searchmember?query=nikki
+2025-04-11T11:33:27.642Z info: app listening on port 8000
+2025-04-11T11:33:31.180Z info: Received a GET request for /accounts/searchmember?query=nikki
+2025-04-11T11:33:31.187Z info: Received a request for /searchmember?query=nikki from janjaal
+2025-04-11T11:36:23.391Z info: app listening on port 8000
+2025-04-11T11:36:24.611Z info: Received a GET request for /accounts/searchmember?query=choureynikki11@gmail.com
+2025-04-11T11:36:24.618Z info: Received a request for /searchmember?query=choureynikki11@gmail.com from janjaal

@@ -36,9 +36,14 @@ router.post('/transaction', async (req, res) => {
 router.get('/transaction', async(req,res)=>{
     try{
         const transactionid = req.query.transactionid;
+        const accountId = req.query.accountId;
+        console.log (accountId);
         if(transactionid){
             const transaction = await transactionService.getTransaction(transactionid);
             res.json(transaction); 
+        }else if(accountId){
+            const AccountTransaction = await transactionService.getAccountTransactionList(accountId);
+            res.json(AccountTransaction);
         }else{
             const token = req.headers.authorization;
             const userinfo = jwtUtils.validateToken(token);
@@ -52,5 +57,20 @@ router.get('/transaction', async(req,res)=>{
         res.status(500).send({ message: err.message });
     }
 })
+
+router.get('/users/:userId/private-total', async (req, res) => {
+  try {
+    const userId = req.params.userId;
+
+    const total = await transactionModel.aggregate([
+      { $match: { createdBy: new ObjectId(userId), type: 'expense' } },
+      { $group: { _id: null, total: { $sum: '$amount' } } }
+    ]);
+
+    res.send({ total: total[0]?.total || 0 });
+  } catch (err) {
+    res.status(500).send({ message: err.message });
+  }
+});
 
 module.exports = router;
